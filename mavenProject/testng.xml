@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="messageAPI">
+  <test thread-count="5" name="Test" preserve-order="true">
+    <classes>
+      <class name="com.mavenproject.APITesting.Tests.GetMessageTests"/>  
+      <class name="com.mavenproject.APITesting.Tests.PostMessagesTests"/>
+      <class name="com.mavenproject.APITesting.Tests.DeleteMessageTests"/>    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- messageAPI -->
